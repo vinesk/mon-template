@@ -1,6 +1,5 @@
+import './index.css'
 const { default: header } = require('./header')
 
-;(() => {
-  const body = document.querySelector('body')
-  body.appendChild(header())
-})()
+const app = document.querySelector('#app')
+app.appendChild(header())
