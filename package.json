@@ -1,7 +1,7 @@
 {
   "name": "mon-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template for js projects",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -11,7 +11,7 @@
     "clean": "rm -rf dist/*"
   },
   "keywords": [],
-  "author": "",
+  "author": "vinesk",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.24.3",
